@@ -30,11 +30,17 @@ const businesses = [
 
 
 class App extends Component {
+
+// API Feedback to User
+searchYelp(term, location, sortBy) {
+  console.log(`Searching ${term} with pizza, ${location} ${sortBy}`)
+};
+
   render() {
     return (
       <div className='App'>
         <h1>Eternal Pizzeria</h1>
-        <SearchBar />
+        <SearchBar searchYelp={this.searchYelp} />
         <BusinessList businesses={businesses} />
       </div>
     )
