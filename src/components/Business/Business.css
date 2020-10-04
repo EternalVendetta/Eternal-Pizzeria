@@ -9,6 +9,7 @@
   .Business .image-container {
     height: 16.66rem;
     margin-bottom: 1rem;
+    border-radius: 4px;
   }
   
   .Business h2 {
@@ -20,6 +21,7 @@
   .Business-information {
     display: flex;
     justify-content: space-between;
+    color: #332509;
   }
   
   .Business-information p {
@@ -39,10 +41,11 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: right;
+    color: #000;
   }
   
   .Business-reviews h3 {
-    color: #CCA353;
+    color: #cca353;
     font-weight: 600;
   }
   

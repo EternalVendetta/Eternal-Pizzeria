@@ -3,6 +3,10 @@
 html {
     font-size: 18px;
   }
+
+body {
+  background-color: #f2f2f2;
+}  
   
   @media only screen and (max-width: 560px) {
     html {
@@ -31,14 +35,15 @@ html {
   /* App Styles */
   
   .App {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   
   h1 {
     padding: .66rem 0;
     text-align: center;
-    background-color: #cca353;
+    background-color: #332509;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
-    color: #fff;
+    letter-spacing: .2rem;
+    color: #FFF;
   }

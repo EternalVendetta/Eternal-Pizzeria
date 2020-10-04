@@ -2,5 +2,8 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 4.4rem 10%;
+    margin: 4rem 10%;
+    padding-top: 2.562rem;
+    border-radius: 4px;
+    background-color: #E8E9EB;
   }
